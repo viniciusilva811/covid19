@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components'
 import CovidImg from '../../assets/images/covid.jpg'
 
 const globalStyle = createGlobalStyle`
- *  {
+  * {
     outline: none;
     box-sizing: border-box;
   }
@@ -32,7 +32,6 @@ const globalStyle = createGlobalStyle`
   .cursor {
     cursor: pointer;
   }
-  
 `
 
 export default globalStyle
