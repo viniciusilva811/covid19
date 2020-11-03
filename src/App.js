@@ -10,9 +10,6 @@ function App() {
     <StylesProvider injectFirst>
       <CssBaseline />
       <GlobalStyle />
-      <div>
-        teste
-      </div>
       <Main />
     </StylesProvider>
   );
